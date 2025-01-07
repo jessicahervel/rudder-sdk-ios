@@ -15,7 +15,7 @@
     self = [super init];
     if (self) {
         _name = @"rudder-ios-library";
-        _version = RS_VERSION;
+        _version = @"1.31.0";
     }
     return self;
 }

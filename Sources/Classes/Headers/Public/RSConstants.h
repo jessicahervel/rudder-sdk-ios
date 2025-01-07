@@ -41,8 +41,6 @@ extern bool const RSAutomaticSessionTracking;
 extern bool const RSCollectDeviceId;
 // default for gzip request payload
 extern bool const RSGzipStatus;
-// SDK Version
-extern NSString *const RS_VERSION;
 // constant used to check if event filtering is disabled
 extern NSString* const DISABLE;
 // constant used to check if event filtering use white listed events

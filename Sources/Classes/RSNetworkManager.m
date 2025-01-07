@@ -136,7 +136,7 @@ NSString* const RESPONSE = @"RESPONSE";
         case TRANSFORM_ENDPOINT:
             return @"transform";
         case SOURCE_CONFIG_ENDPOINT:
-            return [[NSString alloc] initWithFormat:@"sourceConfig?p=ios&v=%@", RS_VERSION];
+            return [[NSString alloc] initWithFormat:@"sourceConfig?p=ios&v=%@", @"1.31.0"];
     }
 }
 

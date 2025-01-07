@@ -24,7 +24,6 @@ bool const RSEnableBackgroundMode = NO;
 bool const RSAutomaticSessionTracking = YES;
 bool const RSCollectDeviceId = YES;
 bool const RSGzipStatus = YES;
-NSString *const RS_VERSION = SDK_VERSION;
 NSString* const DISABLE = @"disable";
 NSString* const WHITELISTED_EVENTS = @"whitelistedEvents";
 NSString* const BLACKLISTED_EVENTS = @"blacklistedEvents";

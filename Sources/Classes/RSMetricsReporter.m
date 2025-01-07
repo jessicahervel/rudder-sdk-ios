@@ -33,7 +33,7 @@ RSMetricsClient * _Nullable _metricsClient;
         if (preferenceManager.isMetricsCollectionEnabled || preferenceManager.isErrorsCollectionEnabled) {
             NSString *dataPlaneUrl = config.dataPlaneUrl ?: @"";
             if (dataPlaneUrl.length > 0) {
-                RSMetricConfiguration *configuration = [[RSMetricConfiguration alloc] initWithLogLevel:config.logLevel writeKey:writeKey sdkVersion:RS_VERSION sdkMetricsUrl:dataPlaneUrl];
+                RSMetricConfiguration *configuration = [[RSMetricConfiguration alloc] initWithLogLevel:config.logLevel writeKey:writeKey sdkVersion:@"1.31.0" sdkMetricsUrl:dataPlaneUrl];
                 [configuration dbCountThreshold:config.dbCountThreshold];
                 _metricsClient = [[RSMetricsClient alloc] initWithConfiguration:configuration];
                 _metricsClient.isMetricsCollectionEnabled = preferenceManager.isMetricsCollectionEnabled;
